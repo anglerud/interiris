@@ -82,10 +82,11 @@ provide a Grafana dashboard you can import to get started.
 
 ### Prometheus
 
-You can find out how to get Prometheus at [https://prometheus.io/]. Running it
-is very simple, and I would recommend downloading the appropriate install for
-your operating system, then adding a job definition to the `scrape_configs`
-section of your `prometheus.yml` configuration file that looks like this:
+You can find out how to get Prometheus at
+[https://prometheus.io/](https://prometheus.io/). Running it is very simple,
+and I would recommend downloading the appropriate install for your operating
+system, then adding a job definition to the `scrape_configs` section of your
+`prometheus.yml` configuration file that looks like this:
 
 ```yaml
 - job_name: "internet"
