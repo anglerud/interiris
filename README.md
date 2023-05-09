@@ -62,7 +62,7 @@ there are multiple log levels available described in the
 
 If you want to run the docker image, use:
 
-    docker run -it -p 9000:9000 --name interiris --rm interiris:latest
+    docker run -it -p 9000:9000 --name interiris --rm ghcr.io/anglerud/interiris:latest
 
 
 ## Building a docker image
