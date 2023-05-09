@@ -19,11 +19,16 @@ post](https://kentiklabs.com/blog/open-sourcing-our-netdiag-crate/) about their
 Netdiag crate.
 
 
+##  Get a release
+
+If you're running Linux - you can download a binary release from Github. You
+can also build it easily yourself.
+
+
 ## Building
 
-As of yet, there are no ready-built packages. To use this tool, you'll need to
-build the binary yourself, and for that you'll need to have Rust installed. For
-that, you can follow the instructions on the Rust website to [install
+If you want to build the binary yourself, you'll need to have Rust installed.
+For that, you can follow the instructions on the Rust website to [install
 Rust](https://www.rust-lang.org/tools/install). Then:
 
 For a debug build:
