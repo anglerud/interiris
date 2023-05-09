@@ -7,3 +7,6 @@ debug:
 release:
 	cargo build --release
 	sudo setcap 'cap_net_raw=ep' target/release/internet_quality_monitor
+
+docker:
+	docker build -t interiris:latest .

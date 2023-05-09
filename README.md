@@ -22,10 +22,10 @@ Netdiag crate.
 ##  Get a release
 
 If you're running Linux - you can download a binary release from Github. You
-can also build it easily yourself.
+can also build it easily yourself, either to a binary or a docker image.
 
 
-## Building
+## Building a binary
 
 If you want to build the binary yourself, you'll need to have Rust installed.
 For that, you can follow the instructions on the Rust website to [install
@@ -58,6 +58,24 @@ If you have a release build, replace `debug` in the path with `release`.
 While it's not necessary, I would recommend running with `RUST_LOG=info` -
 there are multiple log levels available described in the
 [env_logger](https://docs.rs/env_logger/latest/env_logger/) crate docs.
+
+
+If you want to run the docker image, use:
+
+    docker run -it -p 9000:9000 --name interiris --rm interiris:latest
+
+
+## Building a docker image
+
+The provided docker image should make it easy to build a docker image:
+
+Either:
+
+    make docker
+
+or:
+
+    docker build -t interiris:latest .
 
 
 ## Further usage
